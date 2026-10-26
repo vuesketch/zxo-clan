@@ -1,0 +1,6 @@
+
+{
+  "name": "my-cloudflare-website",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-26"
+}

@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #0b1020;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .card {
+      padding: 45px 30px;
+      border: 1px solid #293653;
+      border-radius: 20px;
+      background: #121a2e;
+      max-width: 500px;
+      width: 90%;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      color: #aab7d0;
+      line-height: 1.7;
+    }
+
+    button {
+      margin-top: 18px;
+      padding: 12px 20px;
+      border: 0;
+      border-radius: 9px;
+      background: #7aaaff;
+      color: #0b1020;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Hello! 👋</h1>
+    <p>My website is working!</p>
+    <p>Powered by Node.js and Cloudflare Workers.</p>
+    <button onclick="showMessage()">Click me</button>
+    <p id="message"></p>
+  </main>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").textContent =
+        "Thanks for visiting my website! 🎉";
+    }
+  </script>
+</body>
+</html>

@@ -1,13 +1,13 @@
-
 {
   "name": "my-cloudflare-website",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "wrangler dev",
-    "deploy": "wrangler deploy"
+    "dev": "node index.js",
+    "build": "tsc",
+    "start": "node index.js"
   },
   "devDependencies": {
-    "wrangler": "^4.0.0"
+    "typescript": "^5.8.3"
   }
 }

@@ -1,13 +1,5 @@
 {
-  "name": "my-cloudflare-website",
+  "name": "zxo-clan-static",
   "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "node index.js",
-    "build": "tsc",
-    "start": "node index.js"
-  },
-  "devDependencies": {
-    "typescript": "^5.8.3"
-  }
+  "private": true
 }

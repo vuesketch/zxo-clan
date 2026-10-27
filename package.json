@@ -1,5 +1,9 @@
 {
-  "name": "zxo-clan-static",
+  "name": "zxo-clan-node",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  }
 }
